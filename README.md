@@ -28,7 +28,7 @@ URL Scheme的使用案例
 
 * 判断iOS设备是否安装某应用 
 ```xml
-<!--需要先在info.plist里将需要使用的URL Scheme的前缀添加到LSApplicationQueriesSchemes键(白名单)，否则UIApplication.shared.canOpenURL(_:)总是会返回false。-->
+<!--在info.plist里将需要使用的URL Scheme的前缀添加到LSApplicationQueriesSchemes键(白名单)，否则UIApplication.shared.canOpenURL(_:)总是会返回false。-->
 <plist version="1.0">
 <dict>
 <key>LSApplicationQueriesSchemes</key>
