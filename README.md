@@ -14,12 +14,12 @@ https://itunes.apple.com/cn/lookup?id=[app id]
 
 Bundle ID和App Store ID互相转换的swift脚本，获取版本号、图标等其他信息也是通过这个方法。
 
-* [bundle2app.swift](https://github.com/WengYuehTing/ipa-info-collection/blob/main/bundle2app.swift)：根据Bundle ID获取App Store ID
+* [bundle2app.swift](https://github.com/WengYuehTing/iOS-app-info/blob/main/bundle2app.swift)：根据Bundle ID获取App Store ID
 ```
 swift bundle2app.swift com.tencent.xin com.tencent.ww
 ```
 
-* [app2bundle.swift](https://github.com/WengYuehTing/ipa-info-collection/blob/main/app2bundle.swift)：根据App Store ID获取Bundle ID
+* [app2bundle.swift](https://github.com/WengYuehTing/iOS-app-info/blob/main/app2bundle.swift)：根据App Store ID获取Bundle ID
 ```
 swift app2bundle.swift 414478124 1087897068 952059546
 ```
