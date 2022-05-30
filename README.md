@@ -1,6 +1,6 @@
 # iOS-app-info
 
-iOS APP的Bundle ID, App Store App ID和URL Scheme信息汇总，**将持續更新!**，也欢迎大家一起来维护！🙏
+常用iOS APP (包括原生应用) 的Bundle ID, App Store App ID和URL Scheme信息汇总，**将持續更新!**，也欢迎大家一起来维护！🙏
 - Bundle ID：iOS应用程序的唯一标识符，格式通常为com.company.appName，由开发人员命名。即使修改应用程序的功能、名称和图标，只要Bundle ID没变，就是代表同一个应用程序。
 - App Store App ID (App Store ID)：App Store的应用程序标识符，由商店自行分配。一个应用的App Store ID会暴露在其下载页的url链接里。以微信为例，微信的App Store链接为https://apps.apple.com/cn/app/wechat/id414478124 ，可以看到其App Store ID为414478124。 
 - URL Scheme：系统提供的一种应用间交互和跳转机制，可以从外部直接访问一个应用的特定业务。URL Scheme本质上是一个字符串，如weixin://scanqrcode，用来打开微信的扫一扫页面。本文只收集用于启动应用的URL Scheme。
@@ -69,8 +69,8 @@ func perform(urlScheme: String) {
 
 ```
 
-## 查询结果
-| 应用          | Bundle ID                         | App Store ID  | URL Scheme                      |
+## 查询结果（Third-Party）
+| 应用          | Bundle ID                         | App Store ID  | URL Scheme                    |
 | ------------- | --------------------------------- | ---------- | ------------------------------- |
 | 微信          | com.tencent.xin                   | 414478124  | weixin://                       |
 | 企业微信      | com.tencent.ww                    | 1087897068 | wxwork://                       |
@@ -212,4 +212,44 @@ func perform(urlScheme: String) {
 | Netflix       | com.netflix.Netflix               | 363590051  | nflx://                         |
 | Twitter       | com.atebits.Tweetie2              | 333903271  | twitter://                      |
 | WhatsApp      | net.whatsapp.WhatsApp             | 310633997  | whatsapp://                     |
-| Safari        | com.apple.mobilesafari            | 1146562112 | x-web-search://                 |
+
+## 查询结果（Apple Native）
+| 应用          | Bundle ID                         | App Store ID  | URL Scheme                   |
+| ------------- | --------------------------------- | ---------- | ------------------------------- |
+| Safari        | com.apple.mobilesafari            | 1146562112  | x-web-search://                |
+| App Store     | com.apple.AppStore                | N/A         | itms-apps://                   |
+| 设置          | com.apple.Preferences             | N/A         | app-prefs://                   |
+| 相机          | com.apple.camera                  | 1584216193  | camera://                      |
+| 照片          | com.apple.mobileslideshow         | 1584215428  | photos-redirect://             | 
+| 时钟(闹钟)    | com.apple.mobiletimer             | 1584215688  | clock-sleep-alarm://           | 
+| 备忘录        | com.apple.mobilenotes             | 1110145109  | mobilenotes://                 |
+| 提醒事项      | com.apple.reminders               | 1108187841  | x-apple-reminderkit://         |
+| 快捷指令      | com.apple.shortcuts               | 1462947752  | shortcuts://                   |
+| 天气          | com.apple.weather                 | 1069513131  | weather://                     |
+| 日历          | com.apple.mobilecal               | 1108185179  | calshow://                     |
+| 地图          | com.apple.Maps                    | 915056765   | maps://                        |
+| 电话          | com.apple.mobilephone             | 1146562108  | mobilephone://                 |
+| 通讯录        | com.apple.MobileAddressBook       | 1069512615  | contact://                     |
+| 信息          | com.apple.MobileSMS               | 1146560473  | messages://                    |
+| Facetime      | com.apple.facetime                | 1110145091  | facetime(-audio)://{phone}     |
+| 计算器        | com.apple.calculator              | 1069511488  | calc://                        |
+| 家庭          | com.apple.Home                    | 1110145103  | x-hm://                        |
+| 健康          | com.apple.Health                  | 1242545199  | x-apple-health://              |
+| 钱包          | com.apple.Passbook                | 1160481993  | shoebox://                     |
+| 股市          | com.apple.stocks                  | 1069512882  | stocks://                      |
+| 图书          | com.tapple.iBooks                 | 364709193   | ibooks://                      |
+| 新闻          | com.apple.news                    | 1066498020  | applenews://                   |
+| 视频          | com.apple.tv                      | 1174078549  | videos://                      |
+| 文件          | com.apple.DocumentsApp            | 1232058109  | shareddocuments://             |
+| 邮件          | com.apple.mobilemail              | 1108187098  | message://                     |
+| 查找          | com.apple.findmy                  | 1514844621  | findmy://                      |
+| 翻译          | com.apple.Translate               | 1514844618  | translate://                   |
+| 音乐          | com.apple.Music                   | 1108187390  | musics://                      |
+| 播客          | com.apple.podcasts                | 525463029   | podcasts://                    |
+| 库乐队        | com.apple.mobilegarageband        | 408709785   | garageband://                  |
+| 语音备忘录     | com.apple.VoiceMemos              | 1069512134  | voicememos://                  |
+| iMovie        | com.apple.iMovie                  | 377298193   | imovie://                      |
+| Watch         | com.apple.Bridge                  | 1069511734  | itms-watch://                  |
+| Apple Store   | com.apple.store.Jolly             | 375380948   | applestore://                  |
+| TestFlight    | com.apple.TestFlight              | 899247664   | itms-beta://                   |
+| Keynote 讲演  | com.apple.Keynote                 | 361285480   | x-keynote-live://              |
