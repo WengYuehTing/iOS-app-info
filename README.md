@@ -2,9 +2,9 @@
 ![platform](https://img.shields.io/badge/platform-iOS-blue)
 ![collection](https://img.shields.io/badge/collection-Bundle%20ID%20%7C%20App%20Store%20App%20ID%20%7C%20URL%20Scheme-orange)
 
-常用iOS APP (包括原生应用) 的Bundle ID, App Store App ID和URL Scheme信息汇总，**将持續更新!**，也欢迎大家一起来维护！🙏
+常用第三方和原生iOS APP的Bundle ID, App Store App ID和URL Scheme信息汇总，**将持續更新!**，也欢迎大家一起来维护！🙏
 - Bundle ID：iOS应用程序的唯一标识符，格式通常为com.company.appName，由开发人员命名。即使修改应用程序的功能、名称和图标，只要Bundle ID没变，就是代表同一个应用程序。
-- App Store App ID (App Store ID)：App Store的应用程序标识符，由商店自行分配。一个应用的App Store ID会暴露在其下载页的url链接里。以微信为例，微信的App Store链接为https://apps.apple.com/cn/app/wechat/id414478124 ，可以看到其App Store ID为414478124。 
+- App Store App ID (App Store ID)：App Store的应用程序标识符，由商店自行分配。一个应用的App Store ID会暴露在其下载页的url链接里。以微信为例，微信的App Store链接为https://apps.apple.com/cn/app/wechat/id414478124 ，其中414478124即为微信的App Store ID。 
 - URL Scheme：系统提供的一种应用间交互和跳转机制，可以从外部直接访问一个应用的特定业务。URL Scheme本质上是一个字符串，如weixin://scanqrcode，用来打开微信的扫一扫页面。本文只收集用于启动应用的URL Scheme。
 
 ## Use Cases
