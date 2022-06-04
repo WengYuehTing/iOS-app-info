@@ -1,4 +1,6 @@
 # iOS-app-info
+![platform](https://img.shields.io/badge/platform-iOS-blue)
+![collection](https://img.shields.io/badge/collection-Bundle%20ID%20%7C%20App%20Store%20App%20ID%20%7C%20URL%20Scheme-orange)
 
 常用iOS APP (包括原生应用) 的Bundle ID, App Store App ID和URL Scheme信息汇总，**将持續更新!**，也欢迎大家一起来维护！🙏
 - Bundle ID：iOS应用程序的唯一标识符，格式通常为com.company.appName，由开发人员命名。即使修改应用程序的功能、名称和图标，只要Bundle ID没变，就是代表同一个应用程序。
@@ -24,7 +26,7 @@ swift bundle2app.swift com.tencent.xin com.tencent.ww
 swift app2bundle.swift 414478124 1087897068 952059546
 ```
 
-URL Scheme的使用案例
+URL Scheme的使用姿势
 
 * 判断iOS设备是否安装某应用 
 ```xml
