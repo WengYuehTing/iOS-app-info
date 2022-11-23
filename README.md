@@ -116,6 +116,7 @@ func perform(urlScheme: String) {
 | 抖音极速版    | com.ss.iphone.ugc.aweme.lite      | 1477031443 | snssdk2329://                   |
 | 抖音火山版    | com.ss.iphone.ugc.Live            | 1086047750 | snssdk1112://                   |
 | Tiktok        | com.zhiliaoapp.musically          | 835599320  | tiktok://                       |
+| 飞书        | com.bytedance.ee.lark              | 1401729613  | feishu://                       |
 | 今日头条      | com.ss.iphone.article.News        | 529092160  | snssdk141://                    |
 | 西瓜视频      | com.ss.iphone.article.Video       | 1134496215 | snssdk32://                     |
 | 皮皮虾        | com.bd.iphone.super               | 1393912676 | bds://                          |
@@ -198,6 +199,7 @@ func perform(urlScheme: String) {
 | 115           | com.115.personal                  | 1446829613 | oof.disk://                     |
 | 名片全能王    | com.intsig.camcard.lite           | 349447615  | camcard://                      |
 | 中国银行      | com.boc.BOCMBCI                   | 399608199  | bocmbciphone://                 |
+| 58同城        | com.taofang.iphone               | 480079300  | wbmain://                       |
 | Google Chrome | com.google.chrome.ios             | 535886823  | googlechrome://                 |
 | Gmail         | com.google.Gmail                  | 422689480  | googlegmail://                  |
 | Facebook      | com.facebook.Facebook             | 284882215  | fb://                           |
